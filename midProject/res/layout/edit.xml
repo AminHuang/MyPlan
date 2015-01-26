@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/edit" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.27"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+        	android:typeface="monospace"
+            android:text="Content"
+            android:shadowColor="#282e3a"
+             />
+
+        <EditText
+            android:id="@+id/editTextContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:ems="10"
+	        android:textColor="#ffffff" 
+	        android:typeface="monospace"
+            android:inputType="textMultiLine" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/edit_sure"
+            android:layout_width="70sp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:text="Ok"
+           	android:textColor="#ffffff"
+        	android:typeface="monospace"
+            android:textStyle="bold"
+            android:background="@drawable/btnbg"
+            android:shadowColor="#282e3a"
+             />
+
+        <Button
+            android:id="@+id/edit_cancel"
+            android:layout_width="75sp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:text="Cancle"
+            android:textColor="#ffffff"
+        	android:typeface="monospace"
+            android:textStyle="bold"
+            android:background="@drawable/btnbg"
+            android:shadowColor="#282e3a"
+             />
+    </LinearLayout>
+
+</LinearLayout>

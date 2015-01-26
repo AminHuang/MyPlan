@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/plan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170sp"
+        android:text="Task Content："
+	    android:textColor="#ffffff" 
+	    android:typeface="monospace"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/plan_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="#ffffff" 
+	    android:typeface="monospace"
+        android:text="heheh"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/setupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="#ffffff" 
+	    android:typeface="monospace"
+        android:text="Remind Date" />
+
+    <TextView
+        android:id="@+id/finishdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/setuptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="#ffffff" 
+	    android:typeface="monospace"
+        android:text="Remind Time" />
+
+    <Button
+        android:id="@+id/warn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="#ffffff" 
+	    android:typeface="monospace"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/finishtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
